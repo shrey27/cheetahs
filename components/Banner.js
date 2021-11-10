@@ -26,7 +26,7 @@ const Banner = (props) => {
           THE
         </Heading>
         <OutlineHeading fontSize={[6, 8]} fontWeight={[700]} marginBottom={[0]}>
-          CHEATING
+          SHAPE-SHIFTER
         </OutlineHeading>
         <Heading fontSize={[6, 8]} fontWeight={[700]} marginBottom={[5]}>
           CHEETAH
