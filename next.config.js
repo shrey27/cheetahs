@@ -38,7 +38,7 @@ const withTM = require("next-transpile-modules")([
   "@solana/wallet-adapter-torus",
 ]);
 const moduleExports = withTM({
-  swcMinify: true,
+  // swcMinify: true,
   images: {
     domains: ["source.unsplash.com"],
   },
