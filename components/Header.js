@@ -50,7 +50,7 @@ const Header = () => {
           pl={[3]}
         >
           <Link
-            href="https://discord.gg/J37H9GjPk3"
+            href="https://discord.gg/"
             target="_blank"
             rel="noopener noreferrer"
           >
