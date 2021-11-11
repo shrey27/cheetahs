@@ -11,13 +11,13 @@ const Quote = () => {
   return (
     <Box
       sx={{
-        background: `linear-gradient(90deg, ${colors.accent1} 10%, transparent 100%)`,
+        background: `linear-gradient(90deg, ${colors.accent1} 100%, transparent 0%)`,
       }}
-      py={[5]}
+      py={[3]}
     >
       <Flex
-        maxWidth={["1024px"]}
-        margin={["0 auto"]}
+        maxWidth={["1000px"]}
+        margin={["0 0"]}
         flexDirection={["row"]}
         alignItems="center"
         justifyContent="center"
@@ -25,28 +25,28 @@ const Quote = () => {
       >
         <Box
           sx={{ position: "relative" }}
-          height="209px"
-          width="209px"
+          height="150px"
+          width="150px"
           mb={[3, 0]}
         >
           <Image
             src={`/julie_mao.jpg`}
             alt={`bender`}
             layout="fill"
-            objectFit="contain"
+            objectFit="cover"
             quality="70"
           />
         </Box>
         <Box flexBasis={["100%", "70%"]} marginLeft={[0, 5]} px={[4, 0]}>
-          <Heading fontSize={[4, 5]} fontWeight={[700]} color={colors.dark}>
+          <Heading fontSize={[3, 4]} fontWeight={[500]} color={colors.dark}>
             “The Cheating Cheetah has different mood and appearance for
             different people, it shows you what you wanna see... Don't fall for
             his tricks”
           </Heading>
           <Heading
-            fontSize={[4, 5]}
-            fontWeight={[700]}
-            marginTop={[3]}
+            fontSize={[3, 5]}
+            fontWeight={[600]}
+            marginTop={[1]}
             color={colors.dark2}
           >
             Boss Lady, <StyledSpan>Designer</StyledSpan>

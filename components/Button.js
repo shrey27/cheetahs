@@ -9,8 +9,8 @@ export const buttonCss = css`
   max-width: 200px;
   min-width: 200px;
   text-transform: uppercase;
-  font-size: 1.15rem;
-  padding: 2rem 0rem;
+  font-size: 1rem;
+  padding: 1rem 0rem;
   pointer-events: auto;
   cursor: pointer;
   :hover {
@@ -22,7 +22,7 @@ const StyledButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 50px;
+  height: 30px;
 `;
 
 export default StyledButton;

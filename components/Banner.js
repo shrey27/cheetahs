@@ -21,14 +21,14 @@ const Banner = (props) => {
       paddingTop={["76px"]}
       justifyContent="space-between"
     >
-      <Flex flexBasis={["100%"]} flexDirection="column">
-        <Heading fontSize={[6, 8]} fontWeight={[700]} marginBottom={[0]}>
+      <Flex flexBasis={["90%"]} flexDirection="column" width={['30vw']}>
+        <Heading fontSize={[4, 6]} fontWeight={[500]} marginBottom={[0]}>
           THE
         </Heading>
-        <OutlineHeading fontSize={[6, 8]} fontWeight={[700]} marginBottom={[0]}>
-          SHAPE-SHIFTER
+        <OutlineHeading fontSize={[4, 6]} fontWeight={[500]} marginBottom={[0]} >
+          SHAPE SHIFTER
         </OutlineHeading>
-        <Heading fontSize={[6, 8]} fontWeight={[700]} marginBottom={[5]}>
+        <Heading fontSize={[4, 6]} fontWeight={[500]} marginBottom={[5]}>
           CHEETAH
         </Heading>
         <Link
@@ -36,7 +36,7 @@ const Banner = (props) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button>FIND MORE</Button>
+        <Button>FIND MORE</Button>
         </Link>
       </Flex>
       {/* <Box sx={{ position: "relative" }} height="100%" width="100%" mb={[3, 0]}>

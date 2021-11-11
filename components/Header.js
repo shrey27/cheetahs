@@ -7,12 +7,11 @@ import NavLink from "next/link";
 import { LinkExternal as Link } from "components/Links";
 
 const StyledHeader = styled.nav`
-  padding: 40px 16px;
   width: 100%;
+  padding: 10px 10px;
   display: flex;
   flex-direction: row;
-  backdrop-filter: blur(5px);
-  @media (min-width: 1024px) {
+  @media (min-width: 1400px) {
     padding: 60px 0;
   }
 `;
@@ -29,8 +28,8 @@ const Header = () => {
                 overflow: "hidden",
                 position: "relative",
               }}
-              height="120px"
-              width="120px"
+              height="100px"
+              width="100px"
               mb={[3, 0]}
             >
               <Image
